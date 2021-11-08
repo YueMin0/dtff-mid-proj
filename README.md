@@ -3,6 +3,7 @@ This is a project for Digital Tools for Finance created by Yue Min.
 
 There are in total five topics: 
 1. Project environment: a function `create_dir.py` that creates a new directory of a given name in the project directory
+   ![Alt Text](https://raw.githubusercontent.com/YueMin0/dtff-mid-proj/main/demo_materials/MidProj/create_dir.gif)
 2. Version control with git: 
     1. Create a local repository for the project directory;
     2. Changes are committed and published to the remote repository;
@@ -19,5 +20,5 @@ There are in total five topics:
         - `utilities.py`: provides a data adapter converting other file types to `.csv`, test files are stored in subfolder `test_files/`
         - `downstream.py`: a function that extracts a subset from a database for usage in endpoint function
         - `upstream.py`: functions for overwirtting existing data, appending new data, and deleting data
-6. Web API: a `jupyter notebook` in folder `web_api/` consists relevant exercises
+5. Web API: a `jupyter notebook` in folder `web_api/` consists relevant exercises
 
