@@ -20,5 +20,8 @@ def get_stock_data(datafile, colnames: Optional[List]=None, start="01/12/2016", 
     return subset
 
 if __name__ == "__main__":
-    print(get_stock_data("SBUX.csv", start="01/02/2021"))
+    print("Test fetch data between 01/08/2021 and 01/11/2021")
+    print(get_stock_data("SBUX.csv", start="01/08/2021", end="01/11/2021"))
 
+    print("\nTest select columns (same date range)")
+    print(get_stock_data("SBUX.csv", start="01/08/2021", end="01/11/2021", colnames=['Date', 'High', 'Low']))

@@ -15,14 +15,15 @@ There are in total five topics:
 3. LaTex (folder `text/`): 
     1. A `.tex` file (`FirstLine.tex`) which produces a document with a single sentence is stored in subfolder `playground/`;
     2. `Reference - A Theory of Auctions and Competitive Bidding.bib` is auto-parsed by DOI using JabRef;
-    3. A LaTex-produced article is stored in subfolder `paper/`;  
-    4. A LaTex-produced beamer presentation is stored in subfolder `presentation/`
+    3. A LaTex-produced [article](https://github.com/YueMin0/dtff-mid-proj/blob/main/text/paper/first_article.pdf) is stored in subfolder `paper/`;  
+    4. A LaTex-produced [beamer presentation](https://github.com/YueMin0/dtff-mid-proj/blob/main/text/presentation/first_prez.pdf) is stored in subfolder `presentation/`
 4. Data management
-    1. A sample database, which consists last Starbuck's monthly stock price for last 60 months, is stored in folder `research_data/`;
+    1. A sample database, which contains Starbucks' monthly stock price for last 60 months, is stored in folder `research_data/`;
     2. A database API is established using Python:
         - `__init__.py`
-        - `utilities.py`: provides a data adapter converting other file types to `.csv`, test files are stored in subfolder `test_files/`
+        - `connect.py`: database authentication (in my case, it configures the environment variable to the data files folder)
         - `downstream.py`: a function that extracts a subset from a database for usage in endpoint function
         - `upstream.py`: functions for overwirtting existing data, appending new data, and deleting data
-5. Web API: a `jupyter notebook` in folder `web_api/` consists relevant exercises
+        - `utilities.py`: provides a data adapter converting other file types to `.csv`, test files are stored in subfolder `test_files/`
+5. Web API: a [jupyter notebook](https://github.com/YueMin0/dtff-mid-proj/blob/main/web_api/web_api.ipynb) in folder `web_api/` consists relevant exercises
 
