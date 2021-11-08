@@ -8,6 +8,10 @@ There are in total five topics:
     1. Create a local repository for the project directory;
     2. Changes are committed and published to the remote repository;
     3. Merge changes from 2-person workflow
+   
+   Version control (local and remote) | Collaboration part zoomed in
+   :---------------------------------:|:-------------:
+   ![](https://raw.githubusercontent.com/YueMin0/dtff-mid-proj/main/demo_materials/MidProj/git_vc.png)|![](https://raw.githubusercontent.com/YueMin0/dtff-mid-proj/main/demo_materials/MidProj/git_collab.png)
 3. LaTex (folder `text/`): 
     1. A `.tex` file (`FirstLine.tex`) which produces a document with a single sentence is stored in subfolder `playground/`;
     2. `Reference - A Theory of Auctions and Competitive Bidding.bib` is auto-parsed by DOI using JabRef;
