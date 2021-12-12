@@ -1,3 +1,7 @@
 .idea/
 .ipynb_checkpoints/
 __pycache__/
+packrat/lib*/
+.Rhistory
+.Rprofile
+text/presentation/.Rhistory

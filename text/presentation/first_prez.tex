@@ -1,6 +1,7 @@
 \documentclass[10pt]{beamer}
 
 \usepackage{graphicx}
+\graphicspath{ {./FigureTable/} }
 
 \title{Pseudo Presentation}
 
@@ -49,16 +50,22 @@
 \end{frame}
 
 % ---------------------------------------------------------------------------
-\begin{frame}{Panel figure  1 x 2!}
-    \frametitle{Capital Asset Pricing Model}
-    \framesubtitle{CML and SML}
+\begin{frame}{A Heatmap Table}
+    \framesubtitle{Climate Change}
     \begin{minipage}{\textwidth}
-        \includegraphics[scale=0.45]{CML.png}
-        \includegraphics[scale=0.45]{SML.png}
-        
-      \end{minipage}
+        \centering
+        \includegraphics[scale=0.55]{heatmap.png}
+    \end{minipage} 
+\end{frame}
 
 
+% ---------------------------------------------------------------------------
+\begin{frame}{A Line Plot}
+    \framesubtitle{Stock Performance}
+    \begin{minipage}{\textwidth}
+        \centering
+        \includegraphics[scale=0.55]{lineplot.png}
+    \end{minipage} 
 \end{frame}
 
 \end{document}
