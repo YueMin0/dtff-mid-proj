@@ -25,16 +25,19 @@
 \author[2]{Second Author \thanks{This is a pseudo author}}
 \affil[2]{Second Affliation}
 
+\renewcommand*\contentsname{Table of Contents}
+
 \begin{document}
 \maketitle
 
 \section*{Abstract}
 This is an abstract section. \blindtext
 
+\tableofcontents
 \newpage
 
-\section{Figure Paragraph}
-This is a paragraph with Figure \ref{fig:sens}. \blindtext[2]\\
+\section{Figure Section}
+This is a paragraph with Figure \ref{fig:sens}. \blindtext[2] This is the first citation (\cite{Kozlowski2020}). \\
 
 \begin{figure}[H]
     \includegraphics[width=0.7\textwidth]{sensitivity.png}
@@ -44,8 +47,8 @@ This is a paragraph with Figure \ref{fig:sens}. \blindtext[2]\\
     \label{fig:sens}
 \end{figure}
 
-\section{Table Paragraph}
-This is a paragraph with Table \ref{tab:birth}. \blindtext[1]
+\section{Table Section}
+This is a paragraph with Table \ref{tab:birth}. \blindtext[1] This is the second citation (\cite{gormsen2020}).
 
 \begin{table}[h]
     \begin{tabular}{|l|c|c|c|}
@@ -67,12 +70,8 @@ This is a paragraph with Table \ref{tab:birth}. \blindtext[1]
     \floatfoot{Note: From Petkov, Georgi \& Marinova, J \& Chakarova, P \& Dimitrova, Sv \& Yordanov, G \& Peeva, Katya \& Parashkevova, Boryana \& Chamova, Galya \& Marinov, V \& Zdravkova, J. (2010). DYNAMICS OF SOME BASIC DEMOGRAPHIC INDICATORS IN BULGARIA FOR THE LAST CENTURY. Trakia Journal of Sciences. 8. 453-465. Table 2.}
     \label{tab:birth}
 \end{table} 
-
-
-
-\noindent This is the first citation: \cite{Kozlowski2020}. This is the second citation: \cite{gormsen2020}.
-
 \newpage
+
 \printbibliography
 
 
