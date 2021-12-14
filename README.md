@@ -1,7 +1,7 @@
 # dtff-proj
-This is a project for Digital Tools for Finance created by Yue Min.
+This is a project for Digital Tools for Finance created by Yue Min. The structure of this repository follows the [Assignment](https://github.com/ipozdeev/digital-tools-for-finance#assignment) section of the course. (All topics are covered including the opional.)
 
-There are in total six topics:
+## Summary
 
 1. Project environment: a script, [`create_dir.py`](https://github.com/YueMin0/dtff-proj/blob/main/create_dir.py), that creates a new directory of a given name in the project directory
     * Demo:  
