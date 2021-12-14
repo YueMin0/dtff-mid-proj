@@ -25,7 +25,7 @@ There are in total six topics:
         - `downstream.py`: a function that extracts a subset from a database for usage in endpoint function
         - `upstream.py`: functions for overwirtting existing data, appending new data, and deleting data
         - `utilities.py`: provides a data adapter converting other file types to `.csv`, test files are stored in subfolder `test_files/`
-    3. The demo usage and test run of the database API can be found in the [data_management_demos](https://github.com/YueMin0/dtff-mid-proj/tree/main/demo_materials/MidProj/data_management_demos).
+    3. The demo usage and test run of the database API can be found in the [data_management_demos](https://github.com/YueMin0/dtff-proj/tree/main/demo_materials/ProjDemo/data_management_demos).
 5. Web API: a [jupyter notebook](https://github.com/YueMin0/dtff-mid-proj/blob/main/web_api/web_api.ipynb) in folder `web_api/` consists relevant exercises
 6. An `R shiny` app presents interactively the worldwide progress of life expectancy and GDP per capita. Below is a demo GIF for the app. 
     ![Alt Text](https://raw.githubusercontent.com/YueMin0/dtff-proj/main/demo_materials/ProjDemo/r_shiny.gif)
